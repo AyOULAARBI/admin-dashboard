@@ -39,7 +39,7 @@ const Sidebar = () => {
                 <CommandSeparator />
                 <CommandGroup heading="Shop">
                     <CommandItem className="ml-2">
-                        <Link href="/posts" className=" flex items-center gap-3">
+                        <Link href="/products" className=" flex items-center gap-3">
                             <Shirt />
                             Products
                         </Link>
