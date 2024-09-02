@@ -1,6 +1,7 @@
 import AnalyticsChart from "@/components/Dashboard/AnalyticsChart";
 import DashboardCard from "@/components/Dashboard/DashboardCard";
 import PostsTable from "@/components/Post/PostsTable";
+import ProductsTable from "@/components/Product/ProductsTable";
 import { Button } from "@/components/ui/button";
 import { Folders, MessageCircle, Newspaper, Users } from "lucide-react";
 
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
       <AnalyticsChart />
       <PostsTable title="Latest 5 posts" limit={5}/>
+      <ProductsTable title="Latest 5 products" limit={5}/>
     </>
   );
 }
